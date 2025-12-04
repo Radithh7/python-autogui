@@ -11,7 +11,7 @@ while True:
         interval = float(input("Masukkan interval screenshot (detik): "))
         break
     except ValueError:
-        print("⚠ Masukkan angka yang valid!")
+        print("Masukkan angka yang valid!")
 
 folder = "screenshots"
 os.makedirs(folder, exist_ok=True)
